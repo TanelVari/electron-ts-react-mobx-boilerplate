@@ -7,14 +7,14 @@ import { observer } from 'mobx-react'
 import { createGlobalStyle } from 'styled-components'
 
 export class App extends React.Component<any, any> {
-	public render() {
-		return (
-			<div className="app">
-				<MainView />
-				<GlobalStyle />
-			</div>
-		)
-	}
+    public render() {
+        return (
+            <div className="app">
+                <MainView />
+                <GlobalStyle />
+            </div>
+        )
+    }
 }
 
 export default observer(App)

@@ -17,8 +17,7 @@ let mainConfig = {
         extensions: ['.js', '.json', '.ts'],
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
                 test: /\.(ts)$/,
                 exclude: /node_modules/,
@@ -60,8 +59,7 @@ let rendererConfig = {
         extensions: ['.js', '.json', '.ts', '.tsx'],
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
                 test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
