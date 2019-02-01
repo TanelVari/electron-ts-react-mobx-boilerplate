@@ -4,6 +4,7 @@ import UIStore from './../store/UIStore'
 import styled from 'styled-components'
 import './MainView.scss'
 
+@observer
 export class MainView extends React.Component<any, any> {
 	private handleButtonClick = () => {
 		UIStore.toggleMessage()
@@ -24,7 +25,7 @@ export class MainView extends React.Component<any, any> {
 	}
 }
 
-export default observer(MainView)
+export default MainView
 
 const Title = styled.h2`
 	padding: 20px 12px;

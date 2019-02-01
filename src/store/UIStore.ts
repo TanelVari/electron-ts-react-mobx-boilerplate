@@ -18,7 +18,6 @@ export class UI {
 	}
 }
 
-// @ts-ignore: TS7009: 'new' expression, whose target lacks a construct signature, implicitly has an 'any' type.
 const UIStore: UI = new UI()
 
 export default UIStore
