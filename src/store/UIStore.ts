@@ -1,6 +1,10 @@
-import { observable, action, computed } from 'mobx'
+import { makeObservable, observable, action, computed } from 'mobx'
 
 export class UI {
+    constructor() {
+        makeObservable(this)
+    }
+
     private _message1: string = 'Hello'
     private _message2: string = 'world!'
 
