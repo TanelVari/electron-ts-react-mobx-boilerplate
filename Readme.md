@@ -31,6 +31,7 @@ Based on:
 
 ## Notes
 
+-   Using Node v12.14.1
 -   Tested on Mac only.
 -   To skip code signing on Mac enter `export CSC_IDENTITY_AUTO_DISCOVERY=false` from terminal.
 
